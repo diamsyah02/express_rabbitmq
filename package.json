@@ -1,0 +1,29 @@
+{
+  "name": "express_rabbitmq",
+  "version": "1.0.0",
+  "description": "Express JS dengan message broker rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diamsyah M Dida",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "knex": "^2.2.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1"
+  },
+  "_moduleAliases": {
+    "@helpers/*": "helpers/",
+    "@configs/*": "configs/",
+    "@rabbits/*": "rabbits/",
+    "@controllers/*": "controllers/",
+    "@services/*": "services/",
+    "@repositories/*": "repositories/"
+  }
+}
