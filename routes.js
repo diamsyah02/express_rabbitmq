@@ -5,7 +5,7 @@ const controller = require('@controllers/product.controller')
 
 const routes = async function (app) {
     await app.route('/').get(function (req, res) {
-        res.status(200).send(response(200, 'Clean architecture express js', null))
+        res.status(200).send(response(200, 'Implementasi RabbitMQ dengan ExpressJS', null))
     });
 
     await app.route('/product').get(controller.getAll)
